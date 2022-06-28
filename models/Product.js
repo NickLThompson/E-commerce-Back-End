@@ -32,7 +32,7 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isDecimal: true,
+        isNumeric: true,
       }
     },
     // This column will help reference the category model's id
